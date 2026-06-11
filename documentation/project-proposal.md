@@ -1,8 +1,8 @@
-# 📋 Hospital Management System - Re-engineering Project Proposal
+# Hospital Management System - Re-engineering Project Proposal
 
 ## 1. Executive Summary
 
-یہ project ایک **legacy Hospital Management System** کو **reverse engineer** کرنا ہے اور پھر اسے **modernize** کرنا ہے۔ مقصد نظام کو analyze کر کے اس کی architecture کو بہتر بنانا اور modern standards کے مطابق refactor کرنا ہے۔
+This project involves conducting a comprehensive reverse engineering and modernization study of a legacy Hospital Management System. The objective is to analyze the existing system, recover its architecture, identify design issues, and propose a strategic modernization approach aligned with contemporary software engineering practices.
 
 ---
 
@@ -10,11 +10,11 @@
 
 ### Why Hospital Management System?
 
-✅ **Complex Domain** - Healthcare کا ایک پیچیدہ ڈومین ہے
-✅ **Multiple Modules** - مختلف قسم کے modules ہیں (Patient, Doctor, Pharmacy, Lab)
-✅ **Real-world Application** - عملی استعمال میں ہے
-✅ **Legacy Concerns** - موجود systems میں legacy code کے issues ہیں
-✅ **Great Learning** - Re-engineering کے لیے بہترین سیکھ
+✅ **Complex Domain** - Healthcare is a complex domain with intricate business logic
+✅ **Multiple Modules** - System contains diverse modules (Patient, Doctor, Pharmacy, Laboratory)
+✅ **Real-world Application** - Active deployment in actual hospital environments
+✅ **Legacy Characteristics** - Exhibits typical legacy code patterns and architectural issues
+✅ **Excellent Learning Opportunity** - Provides comprehensive re-engineering learning experience
 
 ---
 
@@ -23,83 +23,84 @@
 ### Primary Goals:
 
 1. **Program Comprehension**
-   - Legacy system کو سمجھنا
-   - Code exploration کرنا
-   - Documentation بنانا
+   - Understand the legacy system architecture
+   - Perform detailed code exploration
+   - Generate comprehensive documentation
 
 2. **Reverse Engineering**
-   - System architecture کو recover کرنا
-   - Design patterns کو identify کرنا
-   - Dependencies کو map کرنا
+   - Recover system architecture and design patterns
+   - Identify component relationships and dependencies
+   - Map interdependencies across modules
 
 3. **Architecture Analysis**
-   - Logical, Physical, Process views بنانا
-   - Architectural deficiencies identify کرنا
-   - Quality metrics calculate کرنا
+   - Create logical, physical, and process architecture views
+   - Identify architectural deficiencies and anti-patterns
+   - Calculate and analyze code quality metrics
 
 4. **Code Refactoring**
-   - Code smells کو ہٹانا
-   - Maintainability improve کرنا
-   - Performance optimize کرنا
+   - Identify and eliminate code smells
+   - Improve maintainability and readability
+   - Optimize performance bottlenecks
 
-5. **Modernization**
-   - Migration strategy propose کرنا
-   - Microservices architecture suggest کرنا
-   - Cloud deployment plan بنانا
+5. **Modernization Strategy**
+   - Develop migration and modernization strategy
+   - Propose microservices-based architecture
+   - Create cloud deployment planning
 
 ---
 
 ## 4. Scope
 
 ### IN SCOPE:
-- ✅ Legacy system analysis
-- ✅ Architecture recovery
-- ✅ Code quality assessment
-- ✅ Refactoring recommendations
-- ✅ Modernization strategy
+- ✅ Legacy system analysis and documentation
+- ✅ Architecture recovery and visualization
+- ✅ Comprehensive code quality assessment
+- ✅ Refactoring recommendations and samples
+- ✅ Modernization strategy and roadmap
 
 ### OUT OF SCOPE:
-- ❌ Complete code rewrite
-- ❌ Production deployment
+- ❌ Complete code rewrite implementation
+- ❌ Production deployment of changes
 - ❌ Full microservices implementation
-- ❌ New feature development
+- ❌ Development of new features
+- ❌ Integration with external systems
 
 ---
 
 ## 5. Deliverables
 
 ### Phase 1: Analysis & Documentation
-- [ ] Project Proposal (یہ document)
+- [ ] Project Proposal (this document)
 - [ ] System Overview Document
-- [ ] Technology Stack Analysis
+- [ ] Technology Stack Analysis Report
 
 ### Phase 2: Architecture Recovery
 - [ ] Logical Architecture Diagram
 - [ ] Physical Architecture Diagram
 - [ ] Process/Workflow Diagrams
-- [ ] Dependency Maps
+- [ ] Dependency Mapping Documentation
 
 ### Phase 3: Code Analysis
 - [ ] Static Code Analysis Report
-- [ ] Code Metrics (Complexity, Coupling, Cohesion)
-- [ ] Code Smells Identification
-- [ ] Quality Assessment (ISO/IEC standards)
+- [ ] Code Metrics Analysis (Complexity, Coupling, Cohesion)
+- [ ] Code Smells and Anti-patterns Report
+- [ ] Quality Assessment Report (ISO/IEC standards)
 
 ### Phase 4: Refactoring
 - [ ] Refactored Code Samples
-- [ ] Before/After Comparison
-- [ ] Refactoring Justification Document
+- [ ] Before/After Comparison Analysis
+- [ ] Refactoring Justification Documentation
 
 ### Phase 5: Modernization
 - [ ] Modernization Strategy Document
 - [ ] Migration Roadmap
-- [ ] Implementation Prototype
+- [ ] Implementation Prototype/Proof of Concept
 
 ### Phase 6: Final Report
 - [ ] Comprehensive Technical Report
-- [ ] Project Presentation
-- [ ] Live Demonstration
-- [ ] GitHub Repository (Complete)
+- [ ] Project Presentation Slides
+- [ ] Live System Demonstration
+- [ ] Complete GitHub Repository
 
 ---
 
@@ -127,11 +128,11 @@ Final Report & Presentation
 
 | Task | Tool |
 |------|------|
-| Code Analysis | SonarQube, Checkstyle |
+| Code Analysis | SonarQube, Checkstyle, SpotBugs |
 | Dependency Analysis | JDepend, Dependency-Check |
-| Diagramming | Draw.io, StarUML, PlantUML |
-| Metrics | Metrics Plugin, Sonar |
-| Version Control | Git/GitHub |
+| Architecture Visualization | Draw.io, StarUML, PlantUML |
+| Metrics Collection | Metrics Plugin, SonarQube |
+| Version Control | Git, GitHub |
 | Documentation | Markdown, Confluence |
 
 ---
@@ -142,7 +143,7 @@ Final Report & Presentation
 
 | Phase | Duration | Status |
 |-------|----------|--------|
-| Project Setup & Selection | Week 1-2 | ✅ Done |
+| Project Setup & Selection | Week 1-2 | ✅ Completed |
 | Program Comprehension | Week 3-4 | 🔄 In Progress |
 | Reverse Engineering | Week 5-6 | 📅 Upcoming |
 | Architecture Analysis | Week 7-8 | 📅 Upcoming |
@@ -155,73 +156,77 @@ Final Report & Presentation
 ## 8. Resources & Team
 
 ### Team Members:
-- **Lead Architect**: [Team Member 1]
-- **Code Analyst**: [Team Member 2]
-- **Documentation**: [Team Member 3]
-- **Quality Assurance**: [Team Member 4]
+- **Lead Architect** - [Team Member Name]
+- **Code Analyst** - [Team Member Name]
+- **Documentation Specialist** - [Team Member Name]
+- **Quality Assurance Lead** - [Team Member Name]
 
 ### Required Resources:
 - GitHub Repository (✅ Created)
-- Analysis Tools (SonarQube, JDepend)
+- Analysis Tools (SonarQube, JDepend, Checkstyle)
 - Diagramming Tools (Draw.io, StarUML)
 - Database Systems (MySQL/PostgreSQL)
+- Java Development Kit (JDK 8 or higher)
 
 ---
 
 ## 9. Expected Outcomes
 
 ### Learning Outcomes:
-- ✅ Analyze legacy software systems
-- ✅ Apply reverse engineering techniques
-- ✅ Recover & visualize architecture
-- ✅ Evaluate software quality
-- ✅ Implement refactoring strategies
-- ✅ Design modernization approaches
-- ✅ Use professional tools effectively
+- ✅ Analyze and comprehend legacy software systems
+- ✅ Apply reverse engineering methodologies effectively
+- ✅ Recover and visualize software architecture
+- ✅ Evaluate software quality using metrics
+- ✅ Implement systematic refactoring strategies
+- ✅ Design and justify modernization approaches
+- ✅ Use professional-grade software engineering tools
 
 ### Project Outcomes:
-- ✅ Complete architecture documentation
-- ✅ Quality metrics & analysis
-- ✅ Refactored code samples
-- ✅ Modernization roadmap
-- ✅ Technical report
-- ✅ Live presentation
+- ✅ Complete and detailed architecture documentation
+- ✅ Comprehensive quality metrics and analysis report
+- ✅ Refactored code samples with detailed justification
+- ✅ Modernization roadmap and migration strategy
+- ✅ Technical report covering all aspects
+- ✅ Professional presentation for stakeholders
 
 ---
 
 ## 10. Risk Assessment & Mitigation
 
-| Risk | Likelihood | Impact | Mitigation |
+| Risk | Likelihood | Impact | Mitigation Strategy |
 |------|-----------|--------|-----------|
-| Legacy code complexity | High | High | Incremental analysis |
-| Documentation gaps | Medium | High | Focus on reverse engineering |
-| Tool compatibility | Low | Medium | Prepare alternative tools |
-| Team coordination | Low | Medium | Regular meetings & milestones |
+| Legacy code complexity | High | High | Perform incremental analysis by modules |
+| Incomplete documentation | Medium | High | Focus on reverse engineering |
+| Tool compatibility issues | Low | Medium | Prepare alternative tools |
+| Team coordination | Low | Medium | Regular meetings and milestone reviews |
+| Time constraints | Medium | High | Prioritize critical deliverables |
 
 ---
 
 ## 11. Success Criteria
 
-- ✅ Complete architecture diagrams
-- ✅ Comprehensive analysis report
+- ✅ Complete and comprehensive architecture diagrams
+- ✅ Detailed analysis report covering all modules
 - ✅ Code quality improvements > 30%
-- ✅ All deliverables submitted on time
-- ✅ Presentation covers all aspects
-- ✅ GitHub repository well-organized
+- ✅ All deliverables submitted on schedule
+- ✅ Presentation covers all key aspects
+- ✅ GitHub repository well-organized and documented
+- ✅ Clear recommendations for modernization
+- ✅ Successful live demonstration
 
 ---
 
 ## 12. Approval & Sign-off
 
-- **Faculty**: Asif Hussain
+- **Faculty Advisor**: Asif Hussain
 - **Course**: Software Re-Engineering
 - **Class**: BSSE 6th Section (A & B)
-- **Session**: 2023-27
-- **School**: School of Computing and Emerging Technologies, KIU GB
+- **Academic Session**: 2023-27
+- **Institution**: School of Computing and Emerging Technologies, Karachi Institute of Economics and Technology (KIU GB)
 
 ---
 
-**Document Status**: ✅ Final
+**Document Status**: ✅ Final Draft
 **Version**: 1.0
 **Last Updated**: 2026-06-11
-**Next Review**: After Program Comprehension Phase
+**Next Review Date**: After Program Comprehension Phase Completion
