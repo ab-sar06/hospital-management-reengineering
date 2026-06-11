@@ -1,27 +1,27 @@
-# 🏥 Hospital Management System - System Overview
+# Hospital Management System - System Overview
 
 ## 1. System Introduction
 
-**Hospital Management System (HMS)** ایک comprehensive software solution ہے جو hospitals میں مختلف operations کو manage کرتا ہے۔ یہ system patients، doctors، medicines، appointments اور billing کی تمام معلومات کو centralized طریقے سے manage کرتا ہے۔
+The Hospital Management System (HMS) is a comprehensive software solution designed to automate and manage various operations within healthcare facilities. It provides integrated management of patient information, doctor schedules, medical appointments, pharmaceutical operations, laboratory tests, and financial billing across the entire hospital ecosystem.
 
 ---
 
 ## 2. System Purpose & Objectives
 
 ### Primary Purpose:
-- ✅ Automate hospital operations
-- ✅ Manage patient records
-- ✅ Track doctor schedules
-- ✅ Handle prescriptions
-- ✅ Generate medical reports
-- ✅ Process billing
+- ✅ Automate hospital operational processes
+- ✅ Manage and maintain patient medical records
+- ✅ Track and schedule doctor availability
+- ✅ Process and manage prescriptions
+- ✅ Generate medical and analytical reports
+- ✅ Handle billing and payment processing
 
 ### Key Objectives:
-1. **Efficiency** - Manual work کو کم کریں
-2. **Accuracy** - Medical records کو محفوظ رکھیں
-3. **Accessibility** - Information کو accessible بنائیں
-4. **Compliance** - Healthcare standards کو follow کریں
-5. **Scalability** - بڑے hospitals کو support کریں
+1. **Operational Efficiency** - Reduce manual work and administrative overhead
+2. **Data Accuracy** - Maintain accurate and reliable medical records
+3. **Information Accessibility** - Enable authorized access to patient information
+4. **Healthcare Compliance** - Adhere to healthcare regulations and standards
+5. **System Scalability** - Support growing hospital capacity and operations
 
 ---
 
@@ -30,193 +30,179 @@
 ### User Categories:
 
 #### 👨‍⚕️ **Doctor**
-- View appointments
-- Enter patient medical history
-- Prescribe medicines
-- Enter lab results
-- View patient reports
+- View scheduled appointments
+- Enter and update patient medical history
+- Prescribe medications
+- Enter laboratory test results
+- Access patient medical reports
 
-#### 🏥 **Receptionist/Admin**
+#### 🏥 **Receptionist/Administrative Staff**
 - Register new patients
-- Manage appointments
-- Update patient demographics
-- Generate reports
-- Manage billing
+- Manage appointment scheduling
+- Update patient demographic information
+- Generate administrative reports
+- Manage billing information
 
 #### 💊 **Pharmacist**
-- View prescriptions
-- Update inventory
-- Dispense medicines
-- Track medicines
+- View patient prescriptions
+- Update medicine inventory
+- Dispense prescribed medications
+- Track medicine stock levels
 
-#### 🔬 **Laboratorist**
-- Enter test results
-- Generate reports
+#### 🔬 **Laboratory Technician**
+- Record test results
+- Generate laboratory reports
 - Manage test inventory
+- Quality control procedures
 
 #### 👤 **Patient**
 - View appointment history
-- Check medical records
-- Download reports
-- Pay bills online
+- Access personal medical records
+- Download medical reports
+- Process online bill payments
 
-#### 🛡️ **Administrator**
-- System configuration
-- User management
-- Backup & recovery
-- Security management
+#### 🛡️ **System Administrator**
+- System configuration and maintenance
+- User account management
+- Database backup and recovery
+- Security policy enforcement
 
 ---
 
 ## 4. Core Features
 
-### 4.1 **Patient Management**
-```
-Patient Registration
-  ├─ Personal Information
-  ├─ Contact Details
-  ├─ Medical History
-  ├─ Allergies
-  └─ Insurance Information
-```
+### 4.1 **Patient Management Module**
+
+Patient Registration and Information Management:
+- Patient registration and enrollment
+- Personal information management
+- Contact details and emergency contacts
+- Complete medical history maintenance
+- Allergy and sensitivity tracking
+- Insurance information storage
 
 **Key Features:**
-- Patient search
-- Complete medical history
-- Document storage
-- Emergency contacts
+- Comprehensive patient search functionality
+- Complete medical history tracking
+- Medical document storage
+- Emergency contact management
+- Patient demographic updates
 
-### 4.2 **Doctor Management**
-```
-Doctor Information
-  ├─ Qualifications
-  ├─ Specialization
-  ├─ Working Hours
-  ├─ Availability
-  └─ Performance Metrics
-```
+### 4.2 **Doctor Management Module**
 
-**Key Features:**
-- Doctor profiles
-- Schedule management
-- Patient assignment
-- Performance tracking
-
-### 4.3 **Appointment System**
-```
-Appointment Management
-  ├─ Online Booking
-  ├─ Schedule Viewing
-  ├─ Reminder Notifications
-  ├─ Rescheduling
-  └─ Cancellation
-```
+Doctor Information and Schedule Management:
+- Doctor profile and credential management
+- Medical specialization tracking
+- Working hours and shift management
+- Availability scheduling
+- Performance metrics tracking
 
 **Key Features:**
-- Real-time availability
-- Automated reminders
-- Wait list management
-- Performance analytics
+- Doctor profile creation and maintenance
+- Schedule and availability management
+- Patient assignment capabilities
+- Performance metric tracking
+- Specialization-based filtering
+
+### 4.3 **Appointment System Module**
+
+Appointment Booking and Management:
+- Online appointment booking
+- Real-time schedule viewing
+- Automated appointment reminders
+- Appointment rescheduling
+- Appointment cancellation
+
+**Key Features:**
+- Real-time doctor availability checking
+- Automated reminder notifications
+- Waiting list management
+- Appointment performance analytics
+- Multiple appointment slots per day
 
 ### 4.4 **Pharmacy Module**
-```
-Pharmacy Operations
-  ├─ Medicine Inventory
-  ├─ Prescription Processing
-  ├─ Expiry Tracking
-  ├─ Stock Alerts
-  └─ Billing Integration
-```
+
+Pharmaceutical Management:
+- Medicine inventory management
+- Prescription processing and fulfillment
+- Medicine expiry date tracking
+- Stock alert notifications
+- Billing integration
 
 **Key Features:**
-- Medicine database
-- Prescription fulfillment
-- Inventory management
+- Comprehensive medicine database
+- Prescription fulfillment tracking
+- Inventory level monitoring
 - Supplier management
+- Stock-out alert system
 
 ### 4.5 **Laboratory Module**
-```
-Lab Operations
-  ├─ Test Order Management
-  ├─ Sample Collection
-  ├─ Result Entry
-  ├─ Report Generation
-  └─ Quality Control
-```
+
+Laboratory Testing and Reporting:
+- Test order creation and tracking
+- Sample collection management
+- Test result data entry
+- Report generation
+- Quality control procedures
 
 **Key Features:**
-- Test master data
-- Sample tracking
-- Digital reports
-- Result notifications
+- Test master data management
+- Sample tracking and traceability
+- Digital report generation
+- Result notification system
+- Quality assurance procedures
 
 ### 4.6 **Billing System**
-```
-Financial Management
-  ├─ Invoice Generation
-  ├─ Payment Processing
-  ├─ Insurance Claims
-  ├─ Receipt Management
-  └─ Financial Reports
-```
+
+Financial and Billing Management:
+- Invoice generation and management
+- Payment processing
+- Insurance claim submission
+- Receipt generation and storage
+- Financial reporting
 
 **Key Features:**
-- Invoice generation
-- Multiple payment methods
-- Tax calculation
-- Aging analysis
+- Automated invoice generation
+- Multiple payment method support
+- Tax calculation automation
+- Invoice aging analysis
+- Payment reconciliation
 
-### 4.7 **Reporting**
-```
-Reports & Analytics
-  ├─ Patient Reports
-  ├─ Doctor Performance
-  ├─ Financial Reports
-  ├─ Inventory Reports
-  └─ Operational Analytics
-```
+### 4.7 **Reporting Module**
+
+Analytics and Reporting:
+- Patient summary reports
+- Doctor performance analysis
+- Financial and revenue reports
+- Inventory status reports
+- Operational analytics
 
 ---
 
 ## 5. Current Technology Stack
 
 ### Backend Technology:
+
 ```
-┌─────────────────────────────────────────┐
-│           Programming Language           │
-│                  Java                    │
-│          (J2SE / J2EE / Spring)         │
-└─────────────────────────────────────────┘
-                    ↓
-┌─────────────────────────────────────────┐
-│         Framework/Architecture           │
-│  MVC / Layered / Monolithic Architecture │
-└─────────────────────────────────────────┘
-                    ↓
-┌─────────────────────────────────────────┐
-│          ORM / Data Access               │
-│   Hibernate / JPA / JDBC / MyBatis      │
-└─────────────────────────────────────────┘
-                    ↓
-┌─────────────────────────────────────────┐
-│             Database                     │
-│       MySQL / PostgreSQL / Oracle       │
-└─────────────────────────────────────────┘
+Programming Language: Java
+Framework/Architecture: MVC / Layered / Monolithic Architecture
+ORM Framework: Hibernate / JPA / JDBC / MyBatis
+Database Platform: MySQL / PostgreSQL / Oracle
 ```
 
 ### Frontend Technology:
-- Java Swing (Desktop Application)
+- Java Swing (Desktop Application Interface)
 - OR
-- JSP/Servlets (Web Application)
+- JSP/Servlets (Web-based Application)
 - OR
 - Legacy Web Framework
 
 ### Additional Technologies:
-- **Build Tool**: Maven / Gradle
+- **Build Tool**: Maven or Gradle
 - **Version Control**: Git
-- **Testing**: JUnit
-- **Logging**: Log4j
-- **Configuration**: XML/Properties files
+- **Testing Framework**: JUnit
+- **Logging Framework**: Log4j
+- **Configuration Management**: XML/Properties files
 
 ---
 
@@ -224,133 +210,132 @@ Reports & Analytics
 
 ### Core Tables:
 
-```
-PATIENTS
-├─ PatientID (PK)
-├─ Name
-├─ Age
-├─ Gender
-├─ Contact
-├─ Address
-├─ Medical History
-├─ Allergies
-└─ Insurance Info
+**PATIENTS Table**
+- PatientID (Primary Key)
+- Name, Age, Gender
+- Contact Information
+- Address
+- Medical History
+- Allergies and Sensitivities
+- Insurance Information
 
-DOCTORS
-├─ DoctorID (PK)
-├─ Name
-├─ Qualification
-├─ Specialization
-├─ Contact
-├─ Working Hours
-└─ Availability
+**DOCTORS Table**
+- DoctorID (Primary Key)
+- Name, Qualifications
+- Medical Specialization
+- Contact Information
+- Working Hours
+- Availability Status
 
-APPOINTMENTS
-├─ AppointmentID (PK)
-├─ PatientID (FK)
-├─ DoctorID (FK)
-├─ AppointmentDate
-├─ Status
-└─ Notes
+**APPOINTMENTS Table**
+- AppointmentID (Primary Key)
+- PatientID (Foreign Key)
+- DoctorID (Foreign Key)
+- Appointment Date/Time
+- Status (Scheduled, Completed, Cancelled)
+- Additional Notes
 
-MEDICINES
-├─ MedicineID (PK)
-├─ Name
-├─ Composition
-├─ Manufacturer
-├─ Price
-├─ ExpiryDate
-└─ Stock
+**MEDICINES Table**
+- MedicineID (Primary Key)
+- Medicine Name
+- Chemical Composition
+- Manufacturer
+- Price
+- Expiry Date
+- Stock Quantity
 
-PRESCRIPTIONS
-├─ PrescriptionID (PK)
-├─ PatientID (FK)
-├─ DoctorID (FK)
-├─ MedicineID (FK)
-├─ Dosage
-├─ Duration
-└─ Date
+**PRESCRIPTIONS Table**
+- PrescriptionID (Primary Key)
+- PatientID (Foreign Key)
+- DoctorID (Foreign Key)
+- MedicineID (Foreign Key)
+- Dosage Information
+- Duration of Treatment
+- Prescription Date
 
-LABORATORY_TESTS
-├─ TestID (PK)
-├─ PatientID (FK)
-├─ TestName
-├─ Result
-├─ NormalRange
-└─ Date
+**LABORATORY_TESTS Table**
+- TestID (Primary Key)
+- PatientID (Foreign Key)
+- Test Name
+- Test Result
+- Normal Range
+- Test Date
 
-BILLING
-├─ BillingID (PK)
-├─ PatientID (FK)
-├─ Amount
-├─ PaymentStatus
-├─ InvoiceDate
-└─ Remarks
-```
+**BILLING Table**
+- BillingID (Primary Key)
+- PatientID (Foreign Key)
+- Amount Due
+- Payment Status
+- Invoice Date
+- Remarks/Notes
 
 ---
 
 ## 7. Current System Architecture
 
-### Layers:
+### Architectural Layers:
 
 #### **Presentation Layer**
-- User Interface (GUI/Web)
+- User Interface (GUI or Web-based)
 - User input validation
-- Display formatting
+- Display formatting and rendering
+- Navigation and menu management
 
-#### **Application Layer**
-- Business logic
+#### **Application/Business Logic Layer**
+- Core business logic implementation
 - Process management
-- Service classes
+- Service layer classes
+- Transaction management
 
 #### **Persistence Layer**
-- Data access objects (DAO)
+- Data Access Objects (DAO)
 - Database operations
-- Query handling
+- Query management
+- Transaction handling
 
 #### **Database Layer**
-- Data storage
-- Relationships
-- Constraints
+- Data storage and retrieval
+- Relationship management
+- Constraint enforcement
+- Index management
 
 ---
 
 ## 8. Current System Issues (Legacy Concerns)
 
-### 🔴 Architecture Issues:
-1. **Monolithic Design** - سب کچھ ایک جگہ
-2. **Tight Coupling** - Components آپس میں پیوست ہیں
-3. **Hard to Scale** - نئی features شامل کرنا مشکل
-4. **Single Point of Failure** - ایک component خراب = پورا system
+### Architecture Issues:
+1. **Monolithic Design** - All functionality contained in single deployment unit
+2. **Tight Component Coupling** - Components have hard dependencies on each other
+3. **Scalability Limitations** - Difficult to add new features or scale individually
+4. **Single Point of Failure** - System failure if any critical component fails
 
-### 🔴 Code Quality Issues:
-1. **Code Duplication** - بہت سا repeated code
-2. **Poor Documentation** - Comments کی کمی
-3. **Long Methods** - بہت لمبے functions
-4. **God Classes** - Classes بہت بڑی ہیں
-5. **No Design Patterns** - Standard patterns use نہیں ہو رہے
+### Code Quality Issues:
+1. **Code Duplication** - Repeated code across similar modules
+2. **Insufficient Documentation** - Lack of code comments and documentation
+3. **Long Methods** - Methods exceed recommended length guidelines
+4. **God Classes** - Some classes handle too many responsibilities
+5. **Missing Design Patterns** - Inconsistent application of design patterns
 
-### 🔴 Performance Issues:
-1. **Database Queries** - بہت سارے queries ہر request میں
-2. **No Caching** - ہر بار database سے fetch
-3. **No Indexing** - Queries slow ہیں
-4. **Memory Leaks** - Memory management issues
+### Performance Issues:
+1. **Database Query Overhead** - Excessive queries per request
+2. **Missing Caching Strategy** - Data fetched repeatedly from database
+3. **Missing Database Indexes** - Queries execute inefficiently
+4. **Memory Management Issues** - Potential memory leaks
 
-### 🔴 Security Issues:
-1. **SQL Injection** - Database کو risk میں ڈالتا ہے
-2. **XSS Vulnerabilities** - User input validate نہیں ہو رہی
-3. **Weak Authentication** - Simple password checks
-4. **No Encryption** - Data محفوظ نہیں ہے
+### Security Issues:
+1. **SQL Injection Vulnerabilities** - Unsanitized database queries
+2. **Cross-Site Scripting (XSS) Risks** - Inadequate input validation
+3. **Weak Authentication Mechanisms** - Basic password verification
+4. **Data Encryption Gaps** - Sensitive data not encrypted
 
 ---
 
 ## 9. Business Processes
 
-### 🔄 **Patient Visit Process**
+### Patient Visit Workflow:
 
 ```
-1. Patient Registration / Check-in
+1. Patient Registration/Check-in
    ↓
 2. Queue Management
    ↓
@@ -358,31 +343,31 @@ BILLING
    ↓
 4. Diagnosis & Prescription
    ↓
-5. Lab Tests (if required)
+5. Laboratory Tests (if required)
    ↓
 6. Pharmacy (if required)
    ↓
 7. Billing & Payment
    ↓
-8. Follow-up Appointment
+8. Follow-up Appointment Scheduling
 ```
 
-### 🔄 **Prescription to Medicine Dispensing**
+### Prescription to Medicine Dispensing Process:
 
 ```
-1. Doctor Prescribes Medicine
+1. Doctor Creates Prescription
    ↓
-2. Prescription forwarded to Pharmacy
+2. Prescription Forwarded to Pharmacy
    ↓
-3. Pharmacist verifies prescription
+3. Pharmacist Verification
    ↓
-4. Medicine dispensed
+4. Medicine Dispensing
    ↓
-5. Patient counselled
+5. Patient Counseling
    ↓
-6. Bill generated
+6. Bill Generation
    ↓
-7. Payment processed
+7. Payment Processing
 ```
 
 ---
@@ -390,37 +375,37 @@ BILLING
 ## 10. Integration Points
 
 ### External Systems:
-- Payment Gateway Integration
-- Insurance Company Systems
-- Laboratory Equipment
-- Pharmacy Suppliers
-- Email/SMS Services
-- File Storage Services
+- Payment Gateway (credit card, bank transfers)
+- Insurance Company Systems (claims processing)
+- Laboratory Equipment (direct result upload)
+- Pharmacy Suppliers (inventory management)
+- Email/SMS Services (notifications)
+- Cloud Storage Services (file storage)
 
 ---
 
 ## 11. Performance Metrics
 
-### Current Metrics (To be measured):
-- Average response time: TBD
-- Database query time: TBD
-- System uptime: TBD
-- User load capacity: TBD
-- Data processing speed: TBD
+### Current Performance Baseline (To be measured):
+- Average System Response Time: TBD
+- Database Query Execution Time: TBD
+- System Uptime Percentage: TBD
+- Concurrent User Capacity: TBD
+- Data Processing Throughput: TBD
 
 ---
 
 ## 12. Compliance & Standards
 
-### Applicable Standards:
-- **ISO/IEC 27001** - Information Security
+### Applicable Standards and Regulations:
+- **ISO/IEC 27001** - Information Security Management
 - **HIPAA** - Healthcare Data Privacy (if applicable)
-- **ISO/IEC 25010** - Software Quality
-- **HL7** - Healthcare Interoperability
+- **ISO/IEC 25010** - Software Quality Characteristics
+- **HL7** - Healthcare Interoperability Standards
 
 ---
 
-**Document Status**: ✅ Draft
+**Document Status**: ✅ Complete Draft
 **Version**: 1.0
 **Last Updated**: 2026-06-11
-**Next Step**: Detailed Architecture Views (Logical, Physical, Process)
+**Next Phase**: Detailed Architecture Views Development
